@@ -1,27 +1,22 @@
-# built application files
-*.apk
-*.ap_
+library/bin/
+library/gen/
+library/.settings/
+library/.project
+library/.classpath
+library/local.properties
 
-# files for the dex VM
-*.dex
+sample/bin/
+sample/gen/
+sample/.settings/
+sample/.project
+sample/.classpath
+sample/local.properties
 
-# Java class files
-*.class
-
-# generated files
-bin/
-gen/
-lib/
-target/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Eclipse project files
-.classpath
-.project
-
-# Os specific files
+*.tmp
+*.bak
+*.swp
+*.launch
+**/.DS_Store
 .DS_Store
 
 # IntelliJ project files
