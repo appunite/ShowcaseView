@@ -1,31 +1,43 @@
-library/bin/
-library/gen/
-library/.settings/
-library/.project
-library/.classpath
-library/local.properties
+#Android generated
+bin
+gen
+lint.xml
 
-sample/bin/
-sample/gen/
-sample/.settings/
-sample/.project
-sample/.classpath
-sample/local.properties
+#Eclipse
+.project
+.classpath
+.settings
+.checkstyle
 
+#IntelliJ IDEA
+.idea
+*.iml
+*.ipr
+*.iws
+classes
+gen-external-apklibs
+
+#Maven
+target
+release.properties
+pom.xml.*
+
+#Ant
+build.xml
+ant.properties
+local.properties
+proguard.cfg
+proguard-project.txt
+
+#Gradle
+.gradle
+build
+
+#Other
+.DS_Store
+tmp
+*.swp
 *.tmp
 *.bak
 *.swp
 *.launch
-**/.DS_Store
-.DS_Store
-
-# IntelliJ project files
-*.iml
-*.ipr
-*.iws
-.idea/i
-.idea/
-
-# Maven Files
-pom.xml.*
-settings.xml
